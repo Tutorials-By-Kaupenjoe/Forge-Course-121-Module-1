@@ -1,6 +1,10 @@
 package net.kaupenjoe.mccourse;
 
 import com.mojang.logging.LogUtils;
+import net.kaupenjoe.mccourse.item.ModCreativeModeTabs;
+import net.kaupenjoe.mccourse.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +33,9 @@ public class MCCourseMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in
@@ -45,7 +52,10 @@ public class MCCourseMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.AZURITE);
+            event.accept(ModItems.RAW_AZURITE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
