@@ -35,6 +35,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AZURITE_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.AZURITE_END_ORE.get());
                         output.accept(ModBlocks.AZURITE_NETHER_ORE.get());
+
+                        output.accept(ModBlocks.MAGIC_BLOCK.get());
                     }).build());
 
 

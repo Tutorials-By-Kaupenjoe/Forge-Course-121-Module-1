@@ -1,6 +1,7 @@
 package net.kaupenjoe.mccourse.block;
 
 import net.kaupenjoe.mccourse.MCCourseMod;
+import net.kaupenjoe.mccourse.block.custom.MagicBlock;
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -36,6 +37,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> AZURITE_NETHER_ORE = registerBlock("azurite_nether_ore",
             () -> new DropExperienceBlock(UniformInt.of(1, 5),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
