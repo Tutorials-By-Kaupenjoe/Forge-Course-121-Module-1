@@ -37,5 +37,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.AZURITE_END_ORE.get())
                 .add(ModBlocks.AZURITE_NETHER_ORE.get());
 
+        this.tag(BlockTags.FENCES).add(ModBlocks.AZURITE_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES).add(ModBlocks.AZURITE_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS).add(ModBlocks.AZURITE_WALL.get());
+
     }
 }

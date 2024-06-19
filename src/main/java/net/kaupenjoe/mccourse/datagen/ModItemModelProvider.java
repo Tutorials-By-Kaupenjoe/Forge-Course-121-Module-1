@@ -26,11 +26,25 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.AURORA_ASHES.get());
 
         buttonItem(ModBlocks.AZURITE_BUTTON, ModBlocks.AZURITE_BLOCK);
+        fenceItem(ModBlocks.AZURITE_FENCE, ModBlocks.AZURITE_BLOCK);
+        wallItem(ModBlocks.AZURITE_WALL, ModBlocks.AZURITE_BLOCK);
     }
 
     public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
                 .texture("texture",  ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID,
+                        "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/fence_inventory"))
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID,
+                        "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
+                .texture("wall",  ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID,
                         "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 }

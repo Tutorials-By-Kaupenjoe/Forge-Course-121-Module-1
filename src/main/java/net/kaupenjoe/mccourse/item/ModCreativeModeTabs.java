@@ -46,6 +46,10 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.AZURITE_PRESSURE_PLATE.get());
                         output.accept(ModBlocks.AZURITE_BUTTON.get());
+
+                        output.accept(ModBlocks.AZURITE_FENCE.get());
+                        output.accept(ModBlocks.AZURITE_FENCE_GATE.get());
+                        output.accept(ModBlocks.AZURITE_WALL.get());
                     }).build());
 
 
