@@ -2,18 +2,23 @@ package net.kaupenjoe.mccourse.block.custom;
 
 import net.kaupenjoe.mccourse.item.ModItems;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
+
+import java.util.List;
 
 public class MagicBlock extends Block {
     public MagicBlock(Properties properties) {
@@ -40,5 +45,11 @@ public class MagicBlock extends Block {
     private boolean isValidItem(ItemStack item) {
         return item.getItem() == ModItems.AZURITE.get() || item.getItem() == ModItems.RAW_AZURITE.get()
                 || item.getItem() == Items.COAL;
+    }
+
+    @Override
+    public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+        pTooltipComponents.add(Component.translatable("tooltip.mccourse.magic_block.tooltip.1"));
+        super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }
 }

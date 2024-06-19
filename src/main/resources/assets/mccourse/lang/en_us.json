@@ -14,6 +14,12 @@
 
   "block.mccourse.magic_block": "Magic Block",
 
+  "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
+  "tooltip.mccourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
+  "tooltip.mccourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
+
+  "tooltip.mccourse.magic_block.tooltip.1": "This Block is §9MAGICAL§r",
+  "tooltip.mccourse.onion.tooltip.1": "Tastes Great, for an Onion!",
 
   "creativetab.azurite_items": "Azurite Items",
   "creativetab.azurite_blocks": "Azurite Blocks"
