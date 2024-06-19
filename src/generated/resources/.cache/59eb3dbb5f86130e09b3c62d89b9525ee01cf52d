@@ -1,0 +1,6 @@
+// 1.21	2024-06-19T17:01:10.0338419	Loot Tables
+8fc80500a47d2cce00a196fd6ff8706543f42ab7 data/mccourse/loot_table/blocks/azurite_block.json
+64460a477be288b13297f5fad6f0063ac27410c7 data/mccourse/loot_table/blocks/azurite_deepslate_ore.json
+94d36c893e0bb28f040bc4cdb0fb08921d972839 data/mccourse/loot_table/blocks/azurite_end_ore.json
+70de78481031428e280f6776e79db7c6eac027b4 data/mccourse/loot_table/blocks/azurite_nether_ore.json
+23dd75d3f588d248412241147c437a726b783f59 data/mccourse/loot_table/blocks/azurite_ore.json
