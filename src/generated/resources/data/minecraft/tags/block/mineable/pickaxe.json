@@ -7,6 +7,8 @@
     "mccourse:azurite_nether_ore",
     "mccourse:azurite_stairs",
     "mccourse:azurite_slab",
+    "mccourse:azurite_button",
+    "mccourse:azurite_pressure_plate",
     "mccourse:magic_block"
   ]
 }

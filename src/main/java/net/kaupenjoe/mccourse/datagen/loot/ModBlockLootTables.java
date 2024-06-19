@@ -42,6 +42,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.AZURITE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.AZURITE_SLAB.get()));
 
+        this.dropSelf(ModBlocks.AZURITE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.AZURITE_BUTTON.get());
 
     }
 

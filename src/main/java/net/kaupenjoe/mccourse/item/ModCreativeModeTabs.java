@@ -43,6 +43,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.AZURITE_STAIRS.get());
                         output.accept(ModBlocks.AZURITE_SLAB.get());
+
+                        output.accept(ModBlocks.AZURITE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.AZURITE_BUTTON.get());
                     }).build());
 
 

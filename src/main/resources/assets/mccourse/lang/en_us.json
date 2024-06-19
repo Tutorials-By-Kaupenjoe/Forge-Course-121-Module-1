@@ -16,6 +16,8 @@
 
   "block.mccourse.azurite_stairs": "Azurite Stairs",
   "block.mccourse.azurite_slab": "Azurite Slab",
+  "block.mccourse.azurite_button": "Azurite Button",
+  "block.mccourse.azurite_pressure_plate": "Azurite Pressure Plate",
 
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.mccourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
