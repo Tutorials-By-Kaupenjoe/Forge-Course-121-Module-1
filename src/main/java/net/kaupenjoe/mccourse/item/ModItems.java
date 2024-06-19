@@ -19,6 +19,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHAINSAW = ITEMS.register("chainsaw",
             () -> new ChainsawItem(new Item.Properties().durability(32)));
+    public static final RegistryObject<Item> ONION = ITEMS.register("onion",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ONION)));
 
 
 
