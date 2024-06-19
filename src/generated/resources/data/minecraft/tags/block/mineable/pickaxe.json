@@ -5,6 +5,8 @@
     "mccourse:azurite_deepslate_ore",
     "mccourse:azurite_end_ore",
     "mccourse:azurite_nether_ore",
+    "mccourse:azurite_stairs",
+    "mccourse:azurite_slab",
     "mccourse:magic_block"
   ]
 }

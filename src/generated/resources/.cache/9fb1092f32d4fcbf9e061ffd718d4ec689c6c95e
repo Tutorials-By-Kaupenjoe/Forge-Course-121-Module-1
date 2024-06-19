@@ -1,4 +1,6 @@
-// 1.21	2024-06-19T17:01:10.0338419	Recipes
+// 1.21	2024-06-19T21:30:50.2780695	Recipes
+71967e916c086ea570683b4010a1fb3864832262 data/mccourse/advancement/recipes/building_blocks/azurite_slab.json
+151a439f2b90cffc17ba39bb660d4401fd1f414d data/mccourse/advancement/recipes/building_blocks/azurite_stairs.json
 ad93eb0dbd6f87bd55730d7f442f59959b502b02 data/mccourse/advancement/recipes/misc/azurite.json
 a136aa65772a03e5458d70cac9ec2391d87d4f06 data/mccourse/advancement/recipes/misc/azurite_2.json
 d8b51cc95a0b2146bec6de9217ae7a2833fc8892 data/mccourse/advancement/recipes/misc/azurite_block.json
@@ -25,3 +27,5 @@ d459fb6842990db9e8a00337e103bf594016666b data/mccourse/recipe/azurite_from_blast
 fac4c17f78b2ed4f6f9134eac4446d5a9142da47 data/mccourse/recipe/azurite_from_smelting_azurite_nether_ore.json
 43166f58cefd7f68a64d64cee7cdeafd6caea054 data/mccourse/recipe/azurite_from_smelting_azurite_ore.json
 ad9b205b98dc3fb8821df4aefbaf2f929504842d data/mccourse/recipe/azurite_from_smelting_raw_azurite.json
+a1fb53dc01583821d59fe693e0141580133eebbf data/mccourse/recipe/azurite_slab.json
+b2257f6b8f67fa193601721efc66897f41dbc9ef data/mccourse/recipe/azurite_stairs.json

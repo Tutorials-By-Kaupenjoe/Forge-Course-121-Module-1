@@ -14,6 +14,9 @@
 
   "block.mccourse.magic_block": "Magic Block",
 
+  "block.mccourse.azurite_stairs": "Azurite Stairs",
+  "block.mccourse.azurite_slab": "Azurite Slab",
+
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.mccourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
   "tooltip.mccourse.chainsaw.tooltip.2": "§oChainsaw go vrooom!§r",
