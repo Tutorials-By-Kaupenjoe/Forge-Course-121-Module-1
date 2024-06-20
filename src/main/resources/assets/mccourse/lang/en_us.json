@@ -24,6 +24,9 @@
   "block.mccourse.azurite_fence_gate": "Azurite Fence Gate",
   "block.mccourse.azurite_wall": "Azurite Wall",
 
+  "block.mccourse.azurite_door": "Azurite Door",
+  "block.mccourse.azurite_trapdoor": "Azurite Trapdoor",
+
 
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information!",
   "tooltip.mccourse.chainsaw.tooltip.1": "This Chainsaw will cut down trees fast!",
